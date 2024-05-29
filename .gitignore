@@ -10,4 +10,5 @@ build/
 *-rescue.*
 *saved_files#
 *.lck
+_autosave*
 
