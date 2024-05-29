@@ -1,0 +1,14 @@
+COMPONENTS Research & Reference notes
+
+MOLEX female connector
+0.4mm 2 Brick nogging Female SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS
+https://jlcpcb.com/partdetail/Molex-5024260810/C563931
+
+MCU
+https://jlcpcb.com/partdetail/NordicSemicon-NRF52840_QIAAR/C190794 costs 3.05 USD buying 10.
+
+Pin-out:
+1..8  1 VDD 3.3V         5   nIRQ (INT) 3.3K pullup
+ ||   2 SDA              6&7 GND
+4..5  3 SCL
+      4 nRST 3.3K pullup
