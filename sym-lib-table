@@ -4,4 +4,5 @@
   (lib (name "Antenna")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/2450AT42E0100E-ANT.kicad_sym")(options "")(descr ""))
   (lib (name "Molex")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/CON_Molex_5024260812.kicad_sym")(options "")(descr ""))
   (lib (name "LCD")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/FH34SRJ-6S-0_5SH_50_.kicad_sym")(options "")(descr ""))
+  (lib (name "RTC")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/RV-3032-C7.kicad_sym")(options "")(descr ""))
 )

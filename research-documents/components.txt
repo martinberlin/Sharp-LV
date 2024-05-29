@@ -12,3 +12,8 @@ Pin-out:
  ||   2 SDA              6&7 GND
 4..5  3 SCL
       4 nRST 3.3K pullup
+
+External RTC to make a 50/50 Squarewave for the LCD
+
+https://jlcpcb.com/partdetail/C5127802 
+    I2C SON-8(1.5x3.2) Real-Time Clocks(RTC) ROHS
