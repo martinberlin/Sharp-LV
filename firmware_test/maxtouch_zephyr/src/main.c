@@ -26,15 +26,19 @@ int main(void)
 		printk("I2C: Device is not ready.\n");
 		return;
 	}
-
-	while (1) {
-		ret = i2c_read(i2c_dev, buf, 2, TOUCH_I2C_ADDR);
+	// I2C scan
+	bool found = false;
+	for (uint8_t i = 1; i < 127; i++)
+     {
+		ret = i2c_read(i2c_dev, buf, 2, i);
 		if (0 == ret) {
-			printk("i2c read success: 0x%02X%02X\n", buf[0], buf[1]);
-		} else {
-			printk("i2c read failure %d\n", ret);
-		}
-		k_msleep( 2000 );
+			found = true;
+			printk("i2c ADDR 0x%x read success: 0x%02X%02X\n", i, buf[0], buf[1]);
+		} 
+		k_msleep( 200 );
+	}
+	if (!found) {
+		printk("No I2C devices found\n");
 	}
 
 	return 0;
