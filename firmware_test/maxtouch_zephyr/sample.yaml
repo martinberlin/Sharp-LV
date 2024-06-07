@@ -1,0 +1,9 @@
+sample:
+  name: matouch
+tests:
+  sample.basic.blinky:
+    tags:
+      - gpio
+    depends_on: gpio i2c
+    integration_platforms:
+      - esp32s2
