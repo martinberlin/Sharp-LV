@@ -13,18 +13,18 @@
 
 #define TOUCH_I2C_ADDR 0x4a
 
+const struct device *i2c_dev = DEVICE_DT_GET(DT_NODELABEL(i2c0));
 
 int main(void)
 {
 	printk("Hello testing reply from %x\n", TOUCH_I2C_ADDR);
-	const struct device *i2c_dev = DEVICE_DT_GET(DT_NODELABEL(i2c0));
 
 	uint8_t buf[2];
 	int i, ret;
 
 	if (!device_is_ready(i2c_dev)) {
 		printk("I2C: Device is not ready.\n");
-		return;
+		return -1;
 	}
 	// I2C scan
 	bool found = false;
@@ -40,6 +40,8 @@ int main(void)
 	if (!found) {
 		printk("No I2C devices found\n");
 	}
+
+	mxt_init(i2c_dev);
 
 	return 0;
 }

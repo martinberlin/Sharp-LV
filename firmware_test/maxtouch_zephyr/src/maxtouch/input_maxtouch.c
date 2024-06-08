@@ -97,15 +97,15 @@ static void mxt_report_data(const struct device *dev) {
             case UP:
             case NO_EVENT:
                 if (pending_for_finger) {
-                    input_report_key(dev, INPUT_BTN_TOUCH, last_touch_status, true, K_FOREVER);
+                    //input_report_key(dev, INPUT_BTN_TOUCH, last_touch_status, true, K_FOREVER);
                     pending_fingers = 0;
                 }
                 WRITE_BIT(pending_fingers, finger_idx, 1);
                 last_touch_status = (ev != UP);
-                input_report_abs(dev, INPUT_ABS_MT_SLOT, finger_idx, false, K_FOREVER);
+                /* input_report_abs(dev, INPUT_ABS_MT_SLOT, finger_idx, false, K_FOREVER);
                 input_report_abs(dev, INPUT_ABS_X, x_pos, false, K_FOREVER);
                 input_report_abs(dev, INPUT_ABS_Y, y_pos, false, K_FOREVER);
-                input_report_key(dev, INPUT_BTN_TOUCH, last_touch_status, false, K_FOREVER);
+                input_report_key(dev, INPUT_BTN_TOUCH, last_touch_status, false, K_FOREVER); */
                 break;
             default:
                 // All other events are ignored
@@ -116,9 +116,9 @@ static void mxt_report_data(const struct device *dev) {
         }
     }
 
-    if (pending_fingers != 0) {
+    /* if (pending_fingers != 0) {
         input_report_key(dev, INPUT_BTN_TOUCH, last_touch_status, true, K_FOREVER);
-    }
+    } */
 
     return;
 }
