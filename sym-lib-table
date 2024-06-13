@@ -6,4 +6,5 @@
   (lib (name "LCD")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/FH34SRJ-6S-0_5SH_50_.kicad_sym")(options "")(descr ""))
   (lib (name "RTC")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/RV-3032-C7.kicad_sym")(options "")(descr ""))
   (lib (name "POWER")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/TPS2113APWR.kicad_sym")(options "")(descr ""))
+  (lib (name "Battery")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/S2B-PH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr ""))
 )
