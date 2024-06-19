@@ -13,5 +13,7 @@ We should check the [mXT144U Datasheet](https://www.microchip.com/content/dam/mc
 
 
 
-2. **ESP32-S3FN8** silicon only board w/ BLE & Wi-Fi, made one before so the experience is a bit higher, but this one is not low consumption. But at least is 240 Mhz and we could try boosting Sharp with LVGL to the max. possible speed.
+2. **ESP32-S3FN8** silicon only board w/ BLE & Wi-Fi, made one before so the experience is a bit higher, this one is not **low consumption**. But at least is 240 Mhz and we could try boosting Sharp with LVGL to the max. possible speed.
 [Preview both here](https://github.com/martinberlin/Sharp-LV/wiki/PCBs-being-made)
+
+![S3 PCB version](https://private-user-images.githubusercontent.com/2692928/341010109-5f33ea71-9d8a-4fb1-8af0-fe7ed78752a8.png)
