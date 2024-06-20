@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/component/footprint")(options "")(descr ""))
+  (lib (name "foot_sharp")(type "KiCad")(uri "/home/martin/Documents/kicad/Sharp-LV/components/footprint")(options "")(descr ""))
+)
