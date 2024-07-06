@@ -54,10 +54,10 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 37dc2f8d-4c52-4fc7-b7c3-a318543255df))
   (fp_line (start 2.349995 1.3) (end -2.349995 1.3)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 0ed63806-47b2-4989-ac93-120684ddcb0b))
-  (pad "1" smd rect (at -0.599999 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48ed13de-8c6d-4916-9e00-1e9177782a7a))
-  (pad "2" smd rect (at -0.2 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 40c787e9-edd5-4129-8cdf-fe97acae15d3))
-  (pad "3" smd rect (at 0.2 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 99b3b1cf-17dd-4237-896c-52453141c0be))
-  (pad "4" smd rect (at 0.599999 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cf850357-bd38-4dce-84d1-27ebd35fe2b2))
+  (pad "1" smd rect (at 0.599999 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cf850357-bd38-4dce-84d1-27ebd35fe2b2))
+  (pad "2" smd rect (at 0.2 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 99b3b1cf-17dd-4237-896c-52453141c0be))
+  (pad "3" smd rect (at -0.2 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 40c787e9-edd5-4129-8cdf-fe97acae15d3))
+  (pad "4" smd rect (at -0.599999 1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48ed13de-8c6d-4916-9e00-1e9177782a7a))
   (pad "5" smd rect (at -0.599999 -1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 232b848c-02ed-4e97-b54d-20cc44ccb6cf))
   (pad "6" smd rect (at -0.2 -1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1b6c5ffd-bb70-4daf-8133-02d232bbfe43))
   (pad "7" smd rect (at 0.2 -1.212499) (size 0.22 0.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 04d3c629-3afd-45e3-bd47-eb37aaf26c9a))
@@ -66,7 +66,7 @@
   (pad "P2" smd rect (at 1.549997 -1.085) (size 0.32 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6fa0c77e-5f7b-4f05-b5a3-09235707ab24))
   (pad "P3" smd rect (at -1.549997 1.085) (size 0.32 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 68cdae64-4a99-4e83-86a2-005c33cdfa70))
   (pad "P4" smd rect (at 1.549997 1.085) (size 0.32 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d1ab9de5-08af-47b7-bca8-eb4a116b69ff))
-  (model "${KIPRJMOD}/components/3D/MOLEX_502426-0810.stp"
+  (model "/home/martin/Documents/kicad/Sharp-LV/components/3D/MOLEX_502426-0810.stp"
     (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
