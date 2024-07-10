@@ -5727,30 +5727,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 157.48 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 1491803b-7ef2-4be2-94f2-5553faca2cdb)
-    (property "Reference" "H2" (at 162.56 156.3116 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 162.56 158.623 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 160.02 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 160.02 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "S3-silicon-Sharp-Touch"
-        (path "/e6751642-eada-4b92-b3bd-08d265514654"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 77.47 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16b86c19-716c-4396-ad4e-47aca338906b)
@@ -6806,35 +6782,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 163.83 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 6d8e10e3-2658-48e1-86be-e6a8b7ceb71b)
-    (property "Reference" "H3" (at 162.56 162.6616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 162.56 164.973 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 160.02 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 160.02 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "epdiy-v7"
-        (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
-          (reference "H3") (unit 1)
-        )
-      )
-      (project "S3-silicon-Sharp-Touch"
-        (path "/e6751642-eada-4b92-b3bd-08d265514654"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 93.98 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e3d660e-bf25-4625-8964-6594c9d4e956)
@@ -7191,6 +7138,30 @@
       (project "S3-silicon-Sharp-Touch"
         (path "/e6751642-eada-4b92-b3bd-08d265514654"
           (reference "J5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 157.48 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 94c99917-670c-4a55-9627-96f780304184)
+    (property "Reference" "H2" (at 162.56 156.3116 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 162.56 158.623 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 160.02 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "S3-silicon-Sharp-Touch"
+        (path "/e6751642-eada-4b92-b3bd-08d265514654"
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -8027,6 +7998,30 @@
       (project "S3-silicon-Sharp-Touch"
         (path "/e6751642-eada-4b92-b3bd-08d265514654"
           (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 163.83 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid c1d8c705-b485-4239-8abd-da030c891ae6)
+    (property "Reference" "H3" (at 162.56 162.6616 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 162.56 164.973 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 160.02 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "S3-silicon-Sharp-Touch"
+        (path "/e6751642-eada-4b92-b3bd-08d265514654"
+          (reference "H3") (unit 1)
         )
       )
     )
