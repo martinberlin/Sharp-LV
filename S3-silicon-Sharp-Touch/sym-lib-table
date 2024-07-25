@@ -4,4 +4,5 @@
   (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/Crystal_ECS_40Mhz.kicad_sym")(options "")(descr ""))
   (lib (name "RF Antenna")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/2450AT42E0100E-ANT.kicad_sym")(options "")(descr ""))
   (lib (name "BATTERY")(type "KiCad")(uri "/home/martin/Documents/kicad/Sharp-LV/components/symbol/S2B-PH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "Accel")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/LIS2DH12TR_Accel.kicad_sym")(options "")(descr ""))
 )
